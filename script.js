@@ -142,13 +142,13 @@ function showResult() {
   let icon, title, msg;
 
   if (pct === 1) {
-    icon = '🏆'; title = 'Parabéns, especialista!';
+    icon = ''; title = 'Parabéns, especialista!';
     msg = 'Você acertou tudo! Seu conhecimento sobre agro sustentável é exemplar.';
   } else if (pct >= 0.6) {
-    icon = '🌿'; title = 'Muito bem!';
+    icon = ''; title = 'Muito bem!';
     msg = 'Você tem bom domínio do tema. Continue aprendendo sobre produção sustentável!';
   } else {
-    icon = '🌱'; title = 'Continue aprendendo!';
+    icon = ''; title = 'Continue aprendendo!';
     msg = 'O equilíbrio entre produção e meio ambiente é um tema essencial. Vale aprofundar os estudos!';
   }
 
