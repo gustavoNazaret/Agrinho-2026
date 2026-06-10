@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Agro Sustentável</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <header>
+    <span class="badge">🌱 Agro & Futuro</span>
+    <h1>Agro Forte, Futuro Sustentável</h1>
+    <p>Teste seus conhecimentos sobre equilíbrio entre produção e meio ambiente</p>
+  </header>
+
+  <main>
+    <div id="quiz-box">
+      <div id="progress-bar"><div id="progress-fill"></div></div>
+      <p id="question-count">Pergunta 1 de 8</p>
+      <h2 id="question-text"></h2>
+      <div id="options"></div>
+      <button id="next-btn" disabled>Próxima →</button>
+    </div>
+
+    <div id="result-box" class="hidden">
+      <div id="result-icon"></div>
+      <h2 id="result-title"></h2>
+      <p id="result-score"></p>
+      <p id="result-msg"></p>
+      <button id="restart-btn">Tentar Novamente</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
